@@ -27,7 +27,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">로그인</a>
+                    <a class="nav-link" href="{% url 'common:login' %}">로그인</a>
                     <a href = "{% url 'new' %}">html form 을 이용한 새 글 작성</a>
                     <a href = "{% url 'formcreate' %}">django form 을 이용한 새 글 작성</a>
                     <a href = "{% url 'modelformcreate' %}">django model form 을 이용한 새 글 작성</a>

@@ -29,4 +29,6 @@ urlpatterns = [
     path('modelformcreate/', views.formcreate, name = 'modelformcreate'),
 
     path('blogapp/', include('blogapp.urls')), 
+
+    path('common/', include('common.urls')),
 ]
